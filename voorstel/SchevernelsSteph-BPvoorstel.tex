@@ -1,0 +1,69 @@
+%==============================================================================
+% Sjabloon onderzoeksvoorstel bachproef
+%==============================================================================
+% Gebaseerd op document class `hogent-article'
+% zie <https://github.com/HoGentTIN/latex-hogent-article>
+
+% Voor een voorstel in het Engels: voeg de documentclass-optie [english] toe.
+% Let op: kan enkel na toestemming van de bachelorproefcoördinator!
+\documentclass{hogent-article}
+
+% Invoegen bibliografiebestand
+\addbibresource{voorstel.bib}
+
+% Informatie over de opleiding, het vak en soort opdracht
+\studyprogramme{Professionele bachelor toegepaste informatica}
+\course{Bachelorproef}
+\assignmenttype{Onderzoeksvoorstel}
+% Voor een voorstel in het Engels, haal de volgende 3 regels uit commentaar
+% \studyprogramme{Bachelor of applied information technology}
+% \course{Bachelor thesis}
+% \assignmenttype{Research proposal}
+
+\academicyear{2022-2023} % TODO: pas het academiejaar aan
+
+% TODO: Werktitel
+\title{Optimalisatie van Educatief Gebruik: Beperking en Flexibele Activering van E-commerce Platforms en sociale media in het Onderwijs}
+
+% TODO: Studentnaam en emailadres invullen
+\author{Steph Schevernels}
+\email{Steph.schevernels@student.hogent.be}
+
+% TODO: Medestudent
+% Gaat het om een bachelorproef in samenwerking met een student in een andere
+% opleiding? Geef dan de naam en emailadres hier
+% \author{Yasmine Alaoui (naam opleiding)}
+% \email{yasmine.alaoui@student.hogent.be}
+
+% TODO: Geef de co-promotor op
+\supervisor[Co-promotor]{Peter Vandebeek(IÑIGO, \href{mailto:peter.vandebeek@inigo-ignatiaansescholen.be}{peter.vandebeek@inigo-ignatiaansescholen.be})}
+
+% Binnen welke specialisatierichting uit 3TI situeert dit onderzoek zich?
+% Kies uit deze lijst:
+%
+% - Mobile \& Enterprise development
+% - AI \& Data Engineering
+% - Functional \& Business Analysis
+% - System \& Network Administrator
+% - Mainframe Expert
+% - Als het onderzoek niet past binnen een van deze domeinen specifieer je deze
+%   zelf
+%
+\specialisation{System \& Network Administrator}
+\keywords{Digitale Focusmanagement, Educatieve Technologie , Leerkrachtelijke Autorisatie }
+
+\begin{document}
+
+\begin{abstract}
+   Deze bachelorproef onderzoekt de optimalisatie van educatief gebruik: beperking en flexibele activering van E-commerce Platforms en sociale media in het onderwijs. Ook vergelijkt het welke methode de balans tussen gebruiksgemak, algemene kosten en functionaliteiten voor het beheren van toegang tot E-commerce en social media platforms in het onderwijs vormt, met als doel de afleiding te minimaliseren en educatief gebruik te optimaliseren. In een vergelijkende proof-of-concept werden zeven methoden vergeleken en geïmplementeerd. Deze resultaten laten zien dat er één software programma volledig aan de resultaten van de casus voldoet. Hieruit kan geconcludeerd worden dat er een software programma nodig om centraal beheer van de websites te manifesteren, zodat leerlingen flexibele toegang hebben tot websites die niet van toepassing zijn tijdens de schooluren.
+\end{abstract}
+
+\tableofcontents
+
+% De hoofdtekst van het voorstel zit in een apart bestand, zodat het makkelijk
+% kan opgenomen worden in de bijlagen van de bachelorproef zelf.
+\input{voorstel-inhoud}
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
