@@ -5,32 +5,32 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
 \label{ch:inleiding}
 
-De inleiding moet de lezer net genoeg informatie verschaffen om het onderwerp te begrijpen en in te zien waarom de onderzoeksvraag de moeite waard is om te onderzoeken. In de inleiding ga je literatuurverwijzingen beperken, zodat de tekst vlot leesbaar blijft. Je kan de inleiding verder onderverdelen in secties als dit de tekst verduidelijkt. Zaken die aan bod kunnen komen in de inleiding~\autocite{Pollefliet2011}:
+Met het oog op het behalen van het diploma Toegepaste Informatica/It Operations is het doel in het derde jaar om een bachelorproef uit te werken. Hierbij is gebruik gemaakt van de ervaring opgedaan tijdens de stage bij de scholengroep IÑIGO. Deze proef richt zich tot het onderwerp E-commerce platforms en sociale media in het onderwijs. Beide platformen blijken soms nuttig echter anderzijds een verleiding te zijn voor leerlingen. Dit omdat velen aangetrokken worden om deze platformen te hanteren op verboden momenten en zo hun aandacht verliezen tijdens de opleiding. \newline
 
-\begin{itemize}
-  \item context, achtergrond
-  \item afbakenen van het onderwerp
-  \item verantwoording van het onderwerp, methodologie
-  \item probleemstelling
-  \item onderzoeksdoelstelling
-  \item onderzoeksvraag
-  \item \ldots
-\end{itemize}
+Het doel van het onderzoek is om deze platformen op een educatieve manier in te zetten tijdens de lessen, gebruikmakend van Classroom management software. In de literatuurstudie wordt stilgestaan bij het verschil tussen E-commerce platforms en sociale media. Hierin worden zowel sociale media als E-commerce uitgebreid besproken om daarna het onderscheid te bepalen tussen beide soorten websites. Hierna richte het onderzoek zich tot de Classroom Management Software, beveiliging, soorten, voor- en nadelen. Later komt proxyserver (Forward en Reverse) en open-source software aan bod. Een belangrijke vraag die centraal staat in het onderzoek naar de beste softwareoplossing is: Welke softwareoplossing de beste is om E-commerce platforms en sociale media in het onderwijs te beperken en flexibel te activeren, rekening houdend met het gebruiksgemak, betrouwbaarheid en functies?\newline 
+
+Na het uitvoeren van de literatuurstudie wordt de methodologie beschreven, gevolgd door het uitvoeren van de proof of concept. Voor deze testopstelling wordt de best gekozen software tool gekozen op basis van het onderzoek in de literatuurstudie. 
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
 \label{sec:probleemstelling}
 
-Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's'', systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
+Tijdens de opkomst van de computers in de scholengroep, werden meer en meer leerlingen afgeleid door andere websites. Desondanks leerkrachten toezicht houden tijdens werken en taken blijven leerlingen manieren vinden om dit te omzeilen. Daardoor werd de oplossing geboden om alle websites centraal te blokkeren op de scholen, een oplossing die echter niet haalbaar bleek te zijn. Hierdoor moest er een oplossing gevonden worden dat leerkrachten zelf de blokkades aan en uit kunnen zetten. Bijhorend bij dit probleem was de manier hoe leerkrachten zonder informatica kennis met deze oplossing om konden gaan. Hierdoor moest de uitkomende tool dusdanig flexibel geïmplementeerd en functioneerbaar zijn dat leerkrachten zonder enige vorm van tijdverlies de lessen via de computer verder konden zetten. Zodoende moest er gekeken worden naar de best mogelijke oplossing voor dit probleem te verhelpen op de scholengroep. \newline
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
-
-Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
+Vanuit bovenstaande probleemstelling is het mogelijk één centrale onderzoeksvraag te formuleren die specifiek gericht is op de behoeften van de scholengroep IÑIGO. Deze hoofdvraag kan vervolgens worden onderverdeeld in bijhorende deelvragen om het onderzoek zo nauwkeurig mogelijk uit te werken en af te bakenen:
+\begin{itemize}
+    \item Welke methode vormt de balans tussen gebruiksgemak, algemene kosten en functionaliteiten voor het beheren van toegang tot E-commerce en sociale media platforms in het onderwijs, met als doel de afleiding te minimaliseren en educatief gebruik te optimaliseren? 
+    \begin{itemize}
+        \item In hoeverre is het mogelijk voor deze software open-source te gebruiken?
+        \item Hoe wordt het gebruiksgemak gedefinieerd met betrekking tot het beheren van E-commerce en sociale media platforms in het onderwijs?    
+    \end{itemize}
+\end{itemize}
 
 \section{\IfLanguageName{dutch}{Onderzoeksdoelstelling}{Research objective}}%
 \label{sec:onderzoeksdoelstelling}
 
-Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv.\ om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
+Het hoofddoel van deze paper is een oplossing bieden tot flexibele activering en beperken van E-commerce websites en sociale media tijdens de lessen, met als doel de afleiding te verminderen. Zo kunnen leerkrachten zelf de toegang activeren en deactiveren zodat leerlingen wel of niet op de desbetreffende websites kunnen. Daarnaast is het naar voor brengen van een open-source tool die de oplossing biedt voor deze casus het tweede doel van deze paper. Aan de hand van een lijst met open-source tools komt de beste tool hieruit om deze te implementeren en testen in het derde en laatste deel van deze paper. Ten derde wordt er in dit onderzoek een virtuele klasomgeving nagebootst in een proof of concept. Hierdoor kan de gekozen tool uitgebreid getest worden op functionaliteiten en beperkingen, zodat deze veilig en snel geïnstalleerd kan worden in de scholengroep.
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
 \label{sec:opzet-bachelorproef}
@@ -39,12 +39,12 @@ Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor suc
 % geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
 % die je kan aanvullen/aanpassen in functie van je eigen tekst.
 
-De rest van deze bachelorproef is als volgt opgebouwd:
-
+De bachelorproef is als volgt opgebouwd:
 In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand van zaken binnen het onderzoeksdomein, op basis van een literatuurstudie.
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 
 % TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
+In Hoofdstuk~\ref{ch:poc} wordt de proof of concept uitgewerkt van de beste oplossing voor deze casus.
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
